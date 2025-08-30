@@ -5,25 +5,25 @@ const Navbar = () => {
         Maria.dev
       </h1>
       <div className="md:space-x-6 space-x-3 text-base md:text-lg">
-        <a href="#about" className="hover:text-purple hover:scale-105 transition inline-block">
+        <a href="#about" className="hover:text-purple hover:scale-105 transition inline-block active:text-purple active:scale-125">
           About
         </a>
-        <a href="#skills" className="hover:text-blue-light hover:scale-105 transition inline-block">
+        <a href="#skills" className="hover:text-blue-light hover:scale-105 transition inline-block active:text-blue-light active:scale-125">
           Skills
         </a>
-        <a href="#projects" className="hover:text-purple hover:scale-105 transition inline-block">
+        <a href="#projects" className="hover:text-purple hover:scale-105 transition inline-block active:text-purple active:scale-125">
           Projects
         </a>
-        <a href="#experience" className="hover:text-blue-light hover:scale-105 transition inline-block">
+        <a href="#experience" className="hover:text-blue-light hover:scale-105 transition inline-block active:text-blue-light active:scale-125">
           Experience
         </a>
-        <a href="#education" className="hover:text-purple hover:scale-105 transition inline-block">
+        <a href="#education" className="hover:text-purple hover:scale-105 transition inline-block active:text-purple active:scale-125">
           Education
         </a>
-        <a href="#certifications" className="hover:text-blue-light hover:scale-105 transition inline-block">
+        <a href="#certifications" className="hover:text-blue-light hover:scale-105 transition inline-block active:text-blue-light active:scale-125">
           Certifications
         </a>
-        <a href="#contact" className="hover:text-purple hover:scale-105 transition inline-block">
+        <a href="#contact" className="hover:text-purple hover:scale-105 transition inline-block active:text-purple active:scale-125">
           Contact
         </a>
       </div>
