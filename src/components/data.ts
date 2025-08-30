@@ -7,7 +7,7 @@ export type Project = {
   tech: string;
   github: string;
   demo?: string;
-  howToUse?: string;
+  howToUse?: string[];
 }
 
 export const icons = [
@@ -33,19 +33,19 @@ export const projects = [
     tech: "React (Vite) + Tailwind", 
     github: "https://github.com/Marlesk/library-management-frontend",
     demo: "https://libraryappdemofrontend.vercel.app/",
-    howToUse: `
-      👉 Use the demo account to log in as admin:
-      - Username: admin
-      - Password: Demo123!
-
-      📌 Features:
-      - Add books manually or via Google API
-      - Register user accounts
-      - Make requests and test features
-      - Borrow and return books
-      - Manage users and books
-      - Demo database resets every 3 days
-    `
+    howToUse: [
+      "👉 Use the demo account to log in as admin:",
+      "• Username: admin",
+      "• Password: Demo123!",
+      "",
+      "📌 Features:",
+      "• Add books manually or via Google API",
+      "• Register user accounts",
+      "• Make requests and test features",
+      "• Borrow and return books",
+      "• Manage users and books",
+      "• Demo database resets every 3 days"
+    ]
   },
 
   { 
@@ -62,14 +62,14 @@ export const projects = [
     tech: "React (Vite) + Tailwind",
     github: "https://github.com/Marlesk/cf7-pro-todo-app",
     demo: "https://marlesk.github.io/cf7-pro-todo-app/",
-    howToUse: `
-      ✨ No login required.
-      - Add new tasks
-      - Edit tasks
-      - Mark tasks as completed
-      - Delete tasks
-      - View total, active, and completed task statistics
-    `
+    howToUse: [
+      "✨ No login required.",
+      "• Add new tasks",
+      "• Edit tasks",
+      "• Mark tasks as completed",
+      "• Delete tasks",
+      "• View total, active, and completed task statistics"
+    ]
   }
 ]
 
