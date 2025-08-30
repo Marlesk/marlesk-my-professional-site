@@ -19,6 +19,7 @@ const Header = () => {
       <motion.a
         href="https://www.dropbox.com/scl/fi/mou6jzzmv1dtrmtqp4o0j/Maria_Leska_CV.pdf?rlkey=oogjzj6hro6u6lx18il0h9eck&dl=1"
         target="_blank"
+        rel="noopener noreferrer"
         download ="Maria_Leska_CV.pdf"
         whileHover={{ scale: 1.05 }}
         whileTap={{ scale: 0.95 }}
