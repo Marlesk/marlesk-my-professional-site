@@ -4,7 +4,7 @@ const Navbar = () => {
       <h1 className="text-xl md:text-2xl font-extrabold tracking-tight bg-gradient-to-r from-blue via-purple to-pink bg-clip-text text-transparent">
         Maria.dev
       </h1>
-      <div className="space-x-6 text-base md:text-lg">
+      <div className="md:space-x-6 space-x-3 text-base md:text-lg">
         <a href="#about" className="hover:text-purple hover:scale-105 transition inline-block">
           About
         </a>
