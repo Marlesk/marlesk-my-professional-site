@@ -1,5 +1,7 @@
+import { DiMsqlServer } from "react-icons/di";
 import { FaReact, FaJs, FaNodeJs, FaGitAlt, FaHtml5, FaCss3Alt } from "react-icons/fa";
-import { SiTailwindcss, SiTypescript, SiMongodb, SiBootstrap, SiPostman, SiVercel, SiRender } from "react-icons/si";
+import { SiTailwindcss, SiTypescript, SiMongodb, SiBootstrap, SiPostman, SiVercel, SiRender, SiPostgresql } from "react-icons/si";
+import { GrMysql } from "react-icons/gr";
 
 export type Project = {
   title: string;
@@ -21,6 +23,9 @@ export const icons = [
   { icon: FaNodeJs, label: 'Node.js', color: 'text-green-600' },
   { icon: SiPostman, label: 'Postman', color: 'text-orange-500' },
   { icon: SiMongodb, label: 'MongoDB', color: 'text-green-700' },
+  { icon: DiMsqlServer, label: 'MSSQL', color: 'text-red-700' },
+  { icon: GrMysql, label: 'MySQL', color: 'text-sky-700' },
+  { icon: SiPostgresql, label: 'PostgreSQL', color: 'text-blue-700' },
   { icon: FaGitAlt, label: 'Git', color: 'text-red-500' },
   { icon: SiRender, label: 'Render', color: 'text-gray-600' },
   { icon: SiVercel, label: 'Vercel', color: 'text-black' },       
