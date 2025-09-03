@@ -1,4 +1,4 @@
-#  Maria.dev – Personal Portfolio
+# 📝 Maria.dev – Personal Portfolio
 
 Welcome to my personal portfolio website!  
 This site showcases my skills, projects, education, certifications, and ways to contact me.
@@ -16,7 +16,7 @@ This website was built using modern web technologies:
 - **Frontend:** React
 - **Styling:** TailwindCSS
 - **Icons:** React Icons
-- **Deployment:** Vercel / Render
+- **Deployment:** Vercel 
 
 ---
 
@@ -34,7 +34,7 @@ This website was built using modern web technologies:
 
 ## 📫 Contact
 Feel free to reach out via email or LinkedIn:  
-- Email: [youremail@example.com](mailto:mariales.leska@gmail.com)  
+- Email: [mariales.leska@gmail.com](mailto:mariales.leska@gmail.com)  
 - LinkedIn: [LinkedIn Profile](https://www.linkedin.com/in/maria-leska-17071418b/)
 
 ---
