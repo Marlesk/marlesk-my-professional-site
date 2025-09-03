@@ -75,6 +75,22 @@ export const projects = [
       "• Delete tasks",
       "• View total, active, and completed task statistics"
     ]
+  },
+
+  {
+    title: "Tic-Tac-Toe Game",
+    "description": "A fun and interactive Tic Tac Toe (X vs O) game with multiple rounds, score tracking, and animated winner announcements.",
+    tech: "React (Vite) + Tailwind",
+    github: "https://github.com/Marlesk/tic-tac-toe",
+    demo: "https://marlesk.github.io/tic-tac-toe/",
+     "howToUse": [
+    "✨ No login required.",
+    "• Play as Player X or Player O",
+    "• Automatic score tracking for each round",
+    "• Winner and draw announcements with animations",
+    "• Option to restart a new game",
+    "• Final winner declared after all rounds"
+  ]
   }
 ]
 
