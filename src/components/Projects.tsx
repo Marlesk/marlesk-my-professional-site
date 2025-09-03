@@ -66,8 +66,10 @@ const Projects = () => {
             </h3>
             <div className="mt-4 text-gray-700 text-sm bg-gray-50 p-4 rounded-lg flex flex-col gap-2 max-h-[60vh] overflow-auto">
               {selectedProject.howToUse?.map((line, idx) => (
-                <p key={idx} className={`break-words ${line.trim().startsWith("•") ? "pl-2" : ""}`}>
-                  {line}
+               <p key={idx} className={`break-words ${ line.trim().startsWith("•")
+                    ? "pl-4" : line.trim().startsWith("-")
+                    ? "pl-8" : ""}`}>
+                 {line}
                 </p>
               ))}
             </div>

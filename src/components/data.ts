@@ -83,14 +83,15 @@ export const projects = [
     tech: "React (Vite) + Tailwind",
     github: "https://github.com/Marlesk/tic-tac-toe",
     demo: "https://marlesk.github.io/tic-tac-toe/",
-     "howToUse": [
-    "✨ No login required.",
-    "• Play as Player X or Player O",
-    "• Automatic score tracking for each round",
-    "• Winner and draw announcements with animations",
-    "• Option to restart a new game",
-    "• Final winner declared after all rounds"
-  ]
+    howToUse: [
+      "📏 Game Rules:",
+      "• Players take turns as usual (X and O).",
+      "• If a round ends with a winner:",
+      "  - The losing player starts the next round.",
+      "• If a round ends in a draw:",
+      "  - The player with the lower total score will play first in the next round.",
+      "  - If both players have equal total scores, the player who played first in the previous round goes first."
+    ]
   }
 ]
 
