@@ -92,7 +92,22 @@ export const projects = [
       "  - The player with the lower total score will play first in the next round.",
       "  - If both players have equal total scores, the player who played first in the previous round goes first."
     ]
+  },
+
+  { 
+    "title": "Movies App",
+    "description": "A simple web application to search and view movie information using the OMDb API. Ιt displays movie details, IMDb rating, and extended info like cast, director, and production.",
+    "tech": "HTML + Tailwind + JavaScript",
+    "github": "https://github.com/Marlesk/movies-app",
+    "demo": "https://movies-app-kohl-six.vercel.app/",
+    "howToUse": [
+      "✨ Type the title of a movie in the search bar.",
+      "• Wait a moment for the app to fetch the movie details.",
+      "• View the basic information including title, year, runtime, genre, plot, and IMDb rating.",
+      "• Click the 'More' button to reveal extended information like director, cast, production, language, box office, and rating."
+    ]
   }
+
 ]
 
 export const schools = [
